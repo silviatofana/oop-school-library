@@ -6,9 +6,15 @@
 
 ### Milestone 1:
 
-- Create Person class
-- Create Student class that is a subclass of Person class
-- Create Teacher class that is a subclass of Person class
+- Create person class
+- Create student class that is a subclass of person class
+- Create teacher class that is a subclass of person class
+
+### Milestone 2:
+
+- Create corrector class
+- Set instance of corrector in person on initialization
+- Add new method to person that validates name
 
 ## Built With
 
@@ -21,7 +27,7 @@ To get a local copy up and running:
 * Clone this repo with:
 
     ```bash
-    git clone https://github.com/Ghiftee/oop-school-library
+    https://github.com/silviatofana/oop-school-library.git
     ```
 
 * Navigate to the folder/directory
@@ -37,6 +43,7 @@ To get a local copy up and running:
 - GitHub: [@silviatofana](https://github.com/silviatofana)
 - LinkedIn: [@silviatofana](www.linkedin.com/in/silvia-tofana-10b852186)
 - Twitter: [@silviatofana](https://twitter.com/SilviaTofana)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
