@@ -21,7 +21,7 @@ To get a local copy up and running:
 * Clone this repo with:
 
     ```bash
-    git clone https://github.com/Ghiftee/oop-school-library
+(https://github.com/silviatofana/oop-school-library.git)
     ```
 
 * Navigate to the folder/directory
