@@ -1,6 +1,10 @@
 class Corrector
   def correct_name(name)
-    capital_name = name.capitalize
-    capital_name.slice(0, 10)
+    get_name = name.strip.capitalize
+    if get_name.length > 10
+      get_name[0, 10]
+    else
+      get_name
+    end
   end
 end
