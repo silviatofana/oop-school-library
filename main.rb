@@ -37,4 +37,3 @@ def option(input)
 end
 
 main
-
