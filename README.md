@@ -1,42 +1,60 @@
-![](https://camo.githubusercontent.com/8a4ae3fb98faf74ddf78a6677ceaa6e8872f7f340f569b7c5e1aa9bcc4061d95/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6963726f76657273652d626c756576696f6c6574)
 
-# OOP school library
+![](https://img.shields.io/badge/school-library-blue)
 
-> This is a school library 
+# School library
+>School library is an app which allows librarians to add students,books and teachers. they cal also assign books to any person who borrows it .
 
-### Milestone 1:
 
-- Create person class
-- Create student class that is a subclass of person class
-- Create teacher class that is a subclass of person class
 
-### Milestone 2:
 
-- Create corrector class
-- Set instance of corrector in person on initialization
-- Add new method to person that validates name
 
+
+Additional description about the project and its features.
 ## Built With
 
-- Ruby
+- Major languages (Ruby)
+- Technologies/tools used 
+
+  
+  ``` bash
+ 
+  - rubocop
+  - Git(version control)
+ 
+
+  ```
+
 
 ## Getting Started
 
-To get a local copy up and running:
+To get a local copy up and running follow these simple example steps.
 
-* Clone this repo with:
+### Prerequisites
+ - A text editor(preferably Visual Studio Code)
+### Install
+  -  [Git](https://git-scm.com/downloads)
+  -  [Node](https://nodejs.org/en/download/)
+### Usage
+#### Clone this repository
 
-    ```bash
-    https://github.com/silviatofana/oop-school-library.git
-    ```
+```bash
+$ git clone https://github.com/silviatofana/oop-school-library.git
+.git
+$ cd school-library
 
-* Navigate to the folder/directory
+```
+#### Run project
 
-    ```bash
-    cd oop-school-library
-    ```
+```bash
+$ ruby 'the file you want to run'
+```
 
-## Author
+  <br>
+
+
+
+
+## Authors
 
 👤 **Silvia Tofana **
 
@@ -48,7 +66,9 @@ To get a local copy up and running:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/mugishasam123/school-library/issues).
+
+<br>
 
 ## Show your support
 
@@ -56,4 +76,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
