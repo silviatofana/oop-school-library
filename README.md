@@ -5,18 +5,6 @@
 >School library is an app which allows librarians to add students,books and teachers. they cal also assign books to any person who borrows it .
 
 
-<<<<<<< HEAD
-=======
-- Create person class
-- Create student class that is a subclass of person class
-- Create teacher class that is a subclass of person class
-
-### Milestone 2:
-
-- Create corrector class
-- Set instance of corrector in person on initialization
-- Add new method to person that validates name
->>>>>>> 0fda538e61cc50c8ed32ddcba5033deef5408afe
 
 
 
@@ -49,16 +37,10 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
 #### Clone this repository
 
-<<<<<<< HEAD
 ```bash
-$ git clone https://github.com/silviatofana/oop-school-library.git
+$ git clone https://github.com/mugishasam123/school-library
 .git
 $ cd school-library
-=======
-    ```bash
-    https://github.com/silviatofana/oop-school-library.git
-    ```
->>>>>>> 0fda538e61cc50c8ed32ddcba5033deef5408afe
 
 ```
 #### Run project
@@ -76,11 +58,10 @@ $ ruby 'the file you want to run'
 
 👤 **Author**
 
--👤 **Silvia Tofana **
+- GitHub: [@mugishasamuel](https://github.com/mugishasam123)
+- Twitter: [@mugishasamuel](https://twitter.com/mugishasamuel42/)
+- LinkedIn: [mugishasamuel](https://www.linkedin.com/in/mugisha-samuel-55a905208/)
 
-- GitHub: [@silviatofana](https://github.com/silviatofana)
-- LinkedIn: [@silviatofana](www.linkedin.com/in/silvia-tofana-10b852186)
-- Twitter: [@silviatofana](https://twitter.com/SilviaTofana)
 
 ## 🤝 Contributing
 
@@ -96,8 +77,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-<<<<<<< HEAD
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
-=======
-This project is [MIT](./MIT.md) licensed.
->>>>>>> 0fda538e61cc50c8ed32ddcba5033deef5408afe
