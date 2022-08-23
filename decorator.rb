@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Nameable
   def correct_name
     raise NotImplementedError
@@ -26,5 +27,16 @@ end
 class TrimmerDecorator < Decorator
   def correct_name
     @nameable.correct_name.slice(0, 10) unless @nameable.correct_name.length <= 10
+=======
+require_relative './nameable'
+class Decorator < Nameable
+  def initialize(nameable)
+    @nameable = nameable
+    super()
+  end
+
+  def correct_name
+    @nameable.correct_name
+>>>>>>> 0fda538e61cc50c8ed32ddcba5033deef5408afe
   end
 end
