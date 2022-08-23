@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 #### Clone this repository
 
 ```bash
-$ git clone https://github.com/mugishasam123/school-library
+$ git clone https://github.com/silviatofana/oop-school-library.git
 .git
 $ cd school-library
 
@@ -58,11 +58,11 @@ $ ruby 'the file you want to run'
 
 👤 **Author**
 
-- GitHub: [@mugishasamuel](https://github.com/mugishasam123)
-- Twitter: [@mugishasamuel](https://twitter.com/mugishasamuel42/)
-- LinkedIn: [mugishasamuel](https://www.linkedin.com/in/mugisha-samuel-55a905208/)
+-👤 **Silvia Tofana **
 
-
+- GitHub: [@silviatofana](https://github.com/silviatofana)
+- LinkedIn: [@silviatofana](www.linkedin.com/in/silvia-tofana-10b852186)
+- Twitter: [@silviatofana](https://twitter.com/SilviaTofana)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
