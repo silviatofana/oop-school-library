@@ -15,7 +15,7 @@ class Person < Nameable
   end
 
   def add_rentals(date, book)
-    Rental.new(date, self, book)
+    Rental.new(date, self1, book)
   end
 
   def of_age?
