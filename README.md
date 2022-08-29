@@ -3,7 +3,7 @@
 
 # School library
 >School library is an app which allows librarians to add students,books and teachers. they cal also assign books to any person who borrows it .
-
+https://github.com/silviatofana/oop-school-library
 
 
 
@@ -55,6 +55,11 @@ $ ruby 'the file you want to run'
 
 
 ## Authors
+👤 **Kiprotich Kimutai**
+
+- GitHub: [@Kimutai01](https://github.com/Kimutai01)
+- Twitter: [@Kimutai_01](https://twitter.com/Kimutai_01?s=09)
+- LinkedIn: [@kiprotichkimutai](https://www.linkedin.com/m/in/kimutai-kiprotich-1b5045216)
 
 👤 **Silvia Tofana **
 

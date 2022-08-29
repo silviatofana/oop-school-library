@@ -9,4 +9,3 @@ class Decorator < Nameable
     @nameable.correct_name
   end
 end
-
