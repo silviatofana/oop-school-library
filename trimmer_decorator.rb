@@ -5,4 +5,3 @@ class TrimmerDecorator < Decorator
     @nameable.correct_name[0..9]
   end
 end
-
