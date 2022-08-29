@@ -1,9 +1,10 @@
-require './app'
+#!/usr/bin/env ruby
+
+require_relative 'app'
 
 def main
-  puts 'Welcome to School Library App'
-  app = App.new
-  app.menu_selection
+  @app = App.new
+  @app.run
 end
 
 main
