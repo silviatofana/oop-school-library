@@ -18,4 +18,3 @@ class App
     puts 'thank you for using the app'
   end
 end
-
