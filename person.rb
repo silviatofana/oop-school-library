@@ -1,21 +1,19 @@
-require './decorator'
-require './rental'
+# rubocop: disable Style/OptionalBooleanParameter
+
+require_relative './nameable'
+require_relative 'rental'
 
 class Person < Nameable
-  attr_accessor :name, :age, :rentals
+  attr_accessor :age, :name, :rentals
   attr_reader :id
 
-  def initialize(age, name = 'unknown', parent_permission: true)
+  def initialize(age, name = 'Unknown', parent_permission = true)
     super()
     @id = Random.rand(1..1000)
-    @age = age
     @name = name
+    @age = age
     @parent_permission = parent_permission
     @rentals = []
-  end
-
-  def add_rentals(date, book)
-    Rental.new(date, self, book)
   end
 
   def of_age?
@@ -24,11 +22,17 @@ class Person < Nameable
 
   private :of_age?
 
-  def can_use_services?
+  def method_name?
     of_age? || @parent_permission
   end
 
   def correct_name
     @name
   end
+
+  def add_rental(date, book)
+    Rental.new(date, self, book)
+  end
 end
+
+# rubocop: enable Style/OptionalBooleanParameter
