@@ -2,7 +2,7 @@ require_relative './book'
 require_relative './student'
 require_relative './teacher'
 require_relative './rental'
-require './separations/books_app.rb'
+require './separations/books_app'
 
 class App
   attr_accessor :rentals, :books, :people
