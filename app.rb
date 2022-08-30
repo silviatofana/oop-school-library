@@ -18,6 +18,6 @@ class App
       @options.save_people_to_file
       @options.save_rental_data
     end
-    puts 'thank you for using the app'
+    puts 'thank you for using the application'
   end
 end
