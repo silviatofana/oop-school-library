@@ -18,7 +18,7 @@ describe Teacher do
     expect(@teacher2.parent_permission).to eq true
   end
 
-  it 'should display book rented by Teacher' do
+  it 'should displays book rented by Teacher' do
     @teacher1.add_rental '2022/07/27', @book
     @teacher1.rentals.each do |rental|
       expect(rental.person.title).to eq 'Hello'
