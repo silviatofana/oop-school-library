@@ -8,7 +8,6 @@ https://github.com/silviatofana/oop-school-library
 
 
 
-
 Additional description about the project and its features.
 ## Built With
 
